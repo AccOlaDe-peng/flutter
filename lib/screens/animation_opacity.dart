@@ -6,10 +6,7 @@ class Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const appTitle = 'Opacity Demo';
-    return const MaterialApp(
-      title: appTitle,
-      home: MyHomePage(title: appTitle),
-    );
+    return const MyHomePage(title: appTitle);
   }
 }
 
