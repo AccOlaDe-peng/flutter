@@ -48,6 +48,12 @@ class Home extends StatelessWidget {
                 Navigator.of(context).pushNamed(Routers.tab);
               },
             ),
+            ListTile(
+              title: const Text('EffDownLoad'),
+              onTap: () {
+                Navigator.of(context).pushNamed(Routers.download);
+              },
+            ),
           ],
         ),
         drawer: Drawer(
@@ -100,6 +106,12 @@ class Home extends StatelessWidget {
                 title: const Text('TabBarDemo'),
                 onTap: () {
                   Navigator.of(context).pushNamed(Routers.tab);
+                },
+              ),
+              ListTile(
+                title: const Text('EffDownLoad'),
+                onTap: () {
+                  Navigator.of(context).pushNamed(Routers.download);
                 },
               ),
             ],

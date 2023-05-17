@@ -3,6 +3,7 @@ import 'package:my_app/screens/animation_gesture.dart';
 import 'package:my_app/screens/animation_opacity.dart';
 import 'package:my_app/screens/design_snackbars.dart';
 import 'package:my_app/screens/design_tab.dart';
+import 'package:my_app/screens/effects_download.dart';
 import 'package:my_app/screens/home.dart';
 import 'package:my_app/screens/animation_switch_page.dart';
 
@@ -14,6 +15,7 @@ class Routers {
   static const String page4 = '/page4';
   static const String snack = '/snack';
   static const String tab = '/tab';
+  static const String download = '/download';
   static final routes = {
     home: (context) => const Home(),
     page1: (context) => const Page1(),
@@ -22,6 +24,7 @@ class Routers {
     page4: (context) => const Page4(),
     snack: (context) => const SnackBarDemo(),
     tab: (context) => const TabBarDemo(),
+    download: (context) => const EffDownLoad(),
   };
   static onGenerateRoute(settings) {
     print(settings.name);
